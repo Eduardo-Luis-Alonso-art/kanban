@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Kanban</title>
+</head>
+
+<body>
+    <main class="kanban">
+        <!--COLUNA 1-->
+        <div class="kanban-column" data-id="1">
+            <div class="kanban-title">
+                <h2>
+                    Pendente
+                </h2>
+
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Criar layout responsivo da página de login
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge medium">
+                        <span>
+                            Média Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Definir cores e fontes no design system
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar3.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Especificar regras de negócio para autenticação
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar2.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Criar estrutura inicial do banco de dados
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar2.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--COLUNA 2-->
+        <div class="kanban-column" data-id="2">
+            <div class="kanban-title">
+                <h2>
+                    Em Front-End
+                </h2>
+
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Implementar formulário de cadastro com validação de campos
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Integração com API de autenticação
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar3.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge medium">
+                        <span>
+                            Média Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Componente de navbar com menu responsivo
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--COLUNA 3-->
+        <div class="kanban-column" data-id="3">
+            <div class="kanban-title">
+                <h2>
+                    Em Back-End
+                </h2>
+
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Endpoint POST /login com JWT
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge medium">
+                        <span>
+                            Média Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Endpoint GET /posts com paginação
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar2.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Criação de models com Sequelize (User, Post, Comment)
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar2.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge low">
+                        <span>
+                            Baixa Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Implementar cache para listagem de posts
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar3.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--COLUNA 4-->
+        <div class="kanban-column" data-id="4">
+            <div class="kanban-title">
+                <h2>
+                    Em Teste
+                </h2>
+
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Testes de integração da API de cadastro
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar2.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge medium">
+                        <span>
+                            Média Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Testes unitários do formulário de login
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar3.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--COLUNA 5-->
+        <div class="kanban-column" data-id="5">
+            <div class="kanban-title">
+                <h2>
+                    Concluído
+                </h2>
+
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Criação do repositório no GitHub
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Setup inicial com Vite + React
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar2.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kanban-card" draggable="true">
+                    <div class="badge high">
+                        <span>
+                            Alta Prioridade
+                        </span>
+                    </div>
+
+                    <p class="card-title">
+                        Deploy automático do front-end no Vercel
+                    </p>
+
+                    <div class="card-infos">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="user">
+                            <img src="images/avatar3.png" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
